@@ -1,0 +1,41 @@
+header {
+    left: 20%;
+    width: 60%;
+    height: 85px;
+    background-color: black;
+    position: fixed;
+    color: #fff;
+    z-index: 100;
+    top: 0;
+}
+
+.menu, .logo {
+    display: inline-block;
+}
+
+.menu {
+    float: right;
+    padding-top: 16px;
+}
+
+.logo {
+    float: left;
+    padding-top: 27px;
+    padding-left: 10px;
+}
+
+.logo img {
+    height: 30px;
+    width: 120px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    position: relative;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
