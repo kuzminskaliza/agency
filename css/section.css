@@ -18,12 +18,13 @@ section {
 
 .lets-start-button {
     color: white;
+    background-color: black;
     border: 1px solid #fe4000;
     border-radius: 2px;
     padding: 5px;
     width: 270px;
     height: 70px;
-    margin-top: 80px;
+    margin-top: 65px;
     text-align: center;
     line-height: 70px;
     display: block;
@@ -34,9 +35,8 @@ section {
 }
 
 .main-title {
-    font-size: 62px;
+    font-size: 60px;
     color: white;
-    font-weight: 500;
     line-height: 62px;
     text-align: left;
 }
@@ -47,8 +47,10 @@ section {
 
 p.text-europe {
     color: white;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 10px;
+    word-spacing: 0.5em;
+
 }
 
 .decorative-rectangle {
@@ -80,7 +82,7 @@ p.text-europe {
 .steps {
     position: relative;
     width: 100%;
-    margin-top: 350px;
+    margin-top: 300px;
     float: left;
 }
 
@@ -95,7 +97,7 @@ p.text-europe {
     text-align: center;
     font-size: 18px;
     width: 100%;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 .services {
