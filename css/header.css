@@ -7,20 +7,15 @@ header {
     z-index: 100;
 }
 
-.menu, .logo {
-    display: inline-block;
-}
-
 .menu {
     float: right;
-    padding-top: 16px;
-    word-spacing: 0.5em;
+    padding-top: 18px;
+
 }
 
 .logo {
     float: left;
-    padding-top: 27px;
-    padding-left: 26px;
+    padding-top: 30px;
 }
 
 .logo img {
@@ -28,18 +23,10 @@ header {
     width: 120px;
 }
 
-nav ul li {
-    margin-right: 20px;
-}
 
 nav ul li a {
     color: white;
     text-decoration: none;
-}
-.menu ul {
-    list-style-type: none;
-    margin: 15px;
-    padding: 0;
 }
 
 .menu ul li {
@@ -47,7 +34,7 @@ nav ul li a {
     position: relative;
 }
 .dropdown {
-    padding-right: 20px;
+    padding-right: 54px;
 }
 
 .dropdown-content {
