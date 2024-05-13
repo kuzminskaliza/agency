@@ -135,6 +135,21 @@ p.text-europe {
 
 }
 
+.triangle_group{
+    float: left;
+    position: absolute;
+    margin-left: 205px;
+    margin-top: 6px;
+
+}
+
+.triangle_group3{
+    float: left;
+    position: absolute;
+    margin-left: 205px;
+    margin-top: 24px;
+
+}
 .description {
     color: white;
     font-size: 16px;
@@ -285,6 +300,9 @@ p.text-europe {
     margin-top: 5px;
 }
 
+.background-image{
+
+}
 .form-group {
     display: flex;
 
