@@ -9,7 +9,7 @@ header {
 
 .menu {
     float: right;
-    padding-top: 18px;
+    padding-top: 33px;
 
 }
 
@@ -32,9 +32,6 @@ nav ul li a {
 .menu ul li {
     display: inline-block;
     position: relative;
-}
-.dropdown {
-    padding-right: 54px;
 }
 
 .dropdown-content {
