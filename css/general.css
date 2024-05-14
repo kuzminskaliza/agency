@@ -14,3 +14,14 @@ body {
 p {
   margin: 0;
 }
+
+.main-column {
+    width: 1170px;
+    left: calc(50% - 585px);
+    position: absolute;
+}
+
+.text-color-white {
+    color: white;
+    opacity: 70%;
+}
