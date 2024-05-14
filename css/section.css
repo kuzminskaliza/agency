@@ -50,6 +50,7 @@ section {
 .main-title p {
     width: 415px;
     margin-left: 2px;
+    font-weight: 500;
 }
 
 p.text-europe {
@@ -60,6 +61,7 @@ p.text-europe {
     font-weight: 300;
     line-height: 26px;
     text-align: left;
+    width: 401px;
 
 
 }
