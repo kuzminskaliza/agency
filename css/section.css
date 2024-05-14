@@ -1,6 +1,6 @@
 section {
-    left: 20%;
-    width: 60%;
+    width: 1170px;
+    left: calc(50% - 585px);
     position: relative;
     margin-top: 85px;
 }
@@ -23,7 +23,7 @@ section {
     border-radius: 2px;
     width: 270px;
     height: 70px;
-    margin-top: 76px;
+    margin-top: 77px;
     text-align: center;
     line-height: 69px;
     display: block;
@@ -75,7 +75,7 @@ p.text-europe {
 }
 
 .frame-two-image {
-    margin-left: 196px;
+    margin-left: 173px;
     position: relative;
 }
 
@@ -88,8 +88,8 @@ p.text-europe {
 
 .background-frame2 {
     position: absolute;
-    margin-top: 196px;
-    margin-left: 244px;
+    margin-top: 201px;
+    margin-left: 224px;
     z-index: -100;
 }
 
