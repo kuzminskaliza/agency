@@ -21,8 +21,8 @@ section {
     background-color: black;
     border: 1px solid #fe4000;
     border-radius: 2px;
-    width: 270px;
-    height: 70px;
+    width: 268px;
+    height: 68px;
     margin-top: 77px;
     text-align: center;
     line-height: 69px;
@@ -54,7 +54,6 @@ section {
 }
 
 p.text-europe {
-    color: white;
     margin-top: 27px;
     margin-bottom: 10px;
     font-size: 18px;
@@ -62,8 +61,6 @@ p.text-europe {
     line-height: 26px;
     text-align: left;
     width: 401px;
-
-
 }
 
 .decorative-rectangle {
