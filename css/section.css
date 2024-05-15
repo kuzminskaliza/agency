@@ -201,6 +201,7 @@ p.text-europe {
 .background-frame5 {
     margin-left: -135px;
     position: absolute;
+    padding-top: 33px;
 }
 
 .page-team {
@@ -218,58 +219,70 @@ p.text-europe {
     font-size: 34px;
     font-weight: 500;
     line-height: 34px;
+    padding-top: 34px;
+    margin-left: 21px;
 
 }
 
 .team1 {
     color: white;
     font-size: 34px;
+    padding-top: 9px;
+    margin-left: 22px;
 }
 
 .line2 {
+    left: 21px;
     border-top: 2px solid #fe4000;
-    padding-left: 50px;
+    padding-left: 52px;
     position: absolute;
+    margin-top: 7px;
 }
 
 .job {
-    color: white;
-    margin-top: 70px;
+
+    margin-top: 80px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-left: 17px;
 }
 
 .border1 {
-    /*width: 170px;*/
-    /*height: 225px;*/
     color: #fe4000;
     font-size: 100px;
-    text-align: center;
-    /*line-height: 222px;*/
+    font-weight: 500;
+    line-height: 100px;
+    padding-bottom: 8px;
 }
 
 .border2 {
-    /*width: 270px;*/
-    /*height: 225px;*/
     color: #fe4000;
     font-size: 100px;
     text-align: center;
-    /*line-height: 222px;*/
+    font-weight: 500;
 }
 
 .numbers {
     position: relative;
     margin-top: 50px;
+    margin-left: 16px;
 }
 
 .number5 {
     border: 1px solid #0C0C0E;
-    float: left;
-    width: calc(100% - 15px);
+    width: 168px;
+    height: 219px;
+    margin-left: -6px;
 }
 
 .number150 {
     border: 1px solid #0C0C0E;
     float: left;
-    width: 100%;
+    width: 268px;
+    height: 225px;
+    margin-left: -18px;
+    margin-top: -2px;
 }
 
 .arrow {
@@ -285,21 +298,37 @@ p.text-europe {
 .were {
     color: white;
     font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    padding-top: 7px;
+    padding-bottom: 3px;
+    padding-left: 12px;
 }
 
 .than {
     color: white;
     font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    padding-top: 7px;
+    padding-left: 29px;
 }
 
 .project {
     color: white;
     font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+
 }
 
 .years {
     color: white;
     font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    padding-left: 9px;
+
 }
 
 .text-align-center {
