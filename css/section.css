@@ -93,7 +93,7 @@ p.text-europe {
 .steps {
     position: relative;
     width: 100%;
-    margin-top: 300px;
+    margin-top: 273px;
     float: left;
 }
 
@@ -101,19 +101,30 @@ p.text-europe {
     color: white;
     text-align: center;
     font-size: 34px;
+
 }
 
 .creat {
     color: white;
     text-align: center;
     font-size: 18px;
-    width: 100%;
     padding-top: 10px;
+    font-weight: 300;
+    line-height: 26px;
+}
+
+.creat2 {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+
+    font-weight: 300;
+    line-height: 26px;
 }
 
 .services {
     display: flex;
-    margin-top: 70px;
+    margin-top: 65px;
 }
 
 .rectangle {
@@ -130,43 +141,42 @@ p.text-europe {
 }
 
 .icon {
-    padding-top: 35px;
-    padding-left: 18px;
+    padding-top: 38px;
+    padding-left: 19px;
 }
 
 .title {
     color: white;
-    padding-top: 35px;
-    padding-left: 20px;
+    padding-top: 22px;
+    padding-left: 21px;
+    font-size: 24px;
 }
 
 .line {
     border-top: 2px solid #fe4000;
     padding-left: 50px;
-    margin-top: 5px;
-
 }
 
 .triangle_group{
     float: left;
     position: absolute;
-    margin-left: 205px;
-    margin-top: 6px;
+    margin-left: 224px;
 
 }
 
 .triangle_group3{
     float: left;
     position: absolute;
-    margin-left: 205px;
-    margin-top: 24px;
-
+    margin-left: 224px;
+    margin-top: 28px;
 }
+
 .description {
-    color: white;
     font-size: 16px;
-    padding-top: 40px;
-    padding-left: 15px;
+    padding-left: 19px;
+    line-height: 28px;
+    text-align: left;
+    margin-top: -2px;
 }
 
 .arrow {
