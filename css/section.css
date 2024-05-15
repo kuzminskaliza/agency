@@ -195,7 +195,7 @@ p.text-europe {
 .frame5 {
     position: relative;
     float: left;
-    opacity: 1;
+    margin-top: 31px;
 }
 
 .background-frame5 {
@@ -205,6 +205,7 @@ p.text-europe {
 
 .page-team {
     float: right;
+    margin-top: 32px;
 }
 
 .page3 {
@@ -215,6 +216,9 @@ p.text-europe {
 .team {
     color: white;
     font-size: 34px;
+    font-weight: 500;
+    line-height: 34px;
+
 }
 
 .team1 {
