@@ -195,6 +195,7 @@ p.text-europe {
 .frame5 {
     position: relative;
     float: left;
+    opacity: 1;
 }
 
 .background-frame5 {
