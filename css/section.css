@@ -316,8 +316,6 @@ p.text-europe {
     font-size: 18px;
     font-weight: 400;
     line-height: 18px;
-    /*padding-top: 10px;*/
-    /*padding-left: 48px;*/
 }
 
 .project {
@@ -352,22 +350,31 @@ p.text-europe {
     color: white;
     font-size: 34px;
     text-align: center;
-    margin-top: 240px;
+    margin-top: 279px;
+    font-weight: 500;
+    line-height: 40px;
+    padding-bottom: 47px;
+    position: relative;
 }
 
 .line-lets-start {
     border-top: 2px solid #fe4000;
-    padding-left: 50px;
-    margin-top: 5px;
+    position: absolute;
+    width: 54px;
+    bottom: 35px;
+    left: 476px;
 }
 
 .background-image {
-
+    position: absolute;
+    text-align: center;
+    z-index: -100;
+    margin-top: -173px;
 }
 
 .form-group {
     display: flex;
-
+    padding-left: 166px;
 }
 
 .style-form {
@@ -375,7 +382,11 @@ p.text-europe {
     border: none;
     border-bottom: 1px solid white;
     color: white;
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    margin-top: 35px;
 }
 
 .style-form:focus {
@@ -393,7 +404,7 @@ p.text-europe {
     border-bottom: 1px solid white;
     color: white;
     font-size: 18px;
-    margin-top: 100px;
+    margin-top: 78px;
 }
 
 .style-form-message:focus {
@@ -404,8 +415,10 @@ p.text-europe {
     background: none;
     color: white;
     border: 1px solid #fe4000;
+    font-size: 20px;
     width: 270px;
     height: 70px;
     margin-top: 90px;
     float: right;
+    margin-right: 148px;
 }
