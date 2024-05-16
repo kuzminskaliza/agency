@@ -157,14 +157,14 @@ p.text-europe {
     padding-left: 50px;
 }
 
-.triangle_group{
+.triangle_group {
     float: left;
     position: absolute;
     margin-left: 224px;
 
 }
 
-.triangle_group3{
+.triangle_group3 {
     float: left;
     position: absolute;
     margin-left: 224px;
@@ -188,14 +188,13 @@ p.text-europe {
 .our-team {
     position: relative;
     display: inline-block;
-    margin-top: 100px;
+    margin-top: 163px;
     width: 100%;
 }
 
 .frame5 {
     position: relative;
     float: left;
-    opacity: 1;
 }
 
 .background-frame5 {
@@ -215,57 +214,82 @@ p.text-europe {
 .team {
     color: white;
     font-size: 34px;
+    font-weight: 500;
+    line-height: 34px;
+    /*padding-top: 34px;*/
+    /*margin-left: 4px;*/
+
 }
 
 .team1 {
     color: white;
     font-size: 34px;
+    padding-top: 13px;
+    font-weight: 500;
+    line-height: 34px;
+
+    /*margin-left: 22px;*/
 }
 
+/* todo  в дизайні зміщення вліво з мінусовим margin, тому краще залишити так*/
 .line2 {
     border-top: 2px solid #fe4000;
-    padding-left: 50px;
+    width: 54px;
     position: absolute;
+    margin-top: 12px;
 }
 
 .job {
-    color: white;
-    margin-top: 70px;
+    margin-top: 83px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
 }
 
 .border1 {
-    /*width: 170px;*/
-    /*height: 225px;*/
     color: #fe4000;
     font-size: 100px;
-    text-align: center;
-    /*line-height: 222px;*/
+    font-weight: 500;
+    line-height: 100px;
+    padding-bottom: 6px;
 }
 
 .border2 {
-    /*width: 270px;*/
-    /*height: 225px;*/
     color: #fe4000;
     font-size: 100px;
     text-align: center;
-    /*line-height: 222px;*/
+    font-weight: 500;
+    margin-bottom: -5px;
+    margin-top: -4px;
 }
 
 .numbers {
     position: relative;
-    margin-top: 50px;
+    margin-top: 46px;
 }
 
 .number5 {
     border: 1px solid #0C0C0E;
-    float: left;
-    width: calc(100% - 15px);
+    border-radius: 2px;
+
 }
+.number5 > div{
+    padding-top: 33px;
+    padding-bottom: 37px;
+    padding-right: 6px;
+}
+
 
 .number150 {
     border: 1px solid #0C0C0E;
     float: left;
-    width: 100%;
+}
+
+.number150 > div {
+    padding-top: 38px;
+    padding-left: 18px;
+    padding-bottom: 31px;
+    padding-right: 16px;
 }
 
 .arrow {
@@ -281,32 +305,46 @@ p.text-europe {
 .were {
     color: white;
     font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    padding-top: 7px;
+    padding-bottom: 5px;
 }
 
 .than {
     color: white;
     font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    /*padding-top: 10px;*/
+    /*padding-left: 48px;*/
 }
 
 .project {
     color: white;
     font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+
 }
 
 .years {
     color: white;
     font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+
 }
 
 .text-align-center {
     text-align: center;
 }
 
-.float-left{
+.float-left {
     float: left;
 }
 
-.float-right{
+.float-right {
     float: right;
 }
 
@@ -323,9 +361,10 @@ p.text-europe {
     margin-top: 5px;
 }
 
-.background-image{
+.background-image {
 
 }
+
 .form-group {
     display: flex;
 
@@ -348,7 +387,7 @@ p.text-europe {
     margin-left: 30px;
 }
 
-.style-form-message{
+.style-form-message {
     background: none;
     border: none;
     border-bottom: 1px solid white;
