@@ -273,7 +273,7 @@ p.text-europe {
     border: 1px solid #0C0C0E;
     width: 168px;
     height: 219px;
-    margin-left: -6px;
+
 }
 
 .number150 {
@@ -281,8 +281,8 @@ p.text-europe {
     float: left;
     width: 268px;
     height: 225px;
-    margin-left: -18px;
-    margin-top: -2px;
+    margin-left: -24px;
+    margin-top: -6px;
 }
 
 .arrow {
@@ -302,7 +302,7 @@ p.text-europe {
     line-height: 18px;
     padding-top: 7px;
     padding-bottom: 3px;
-    padding-left: 12px;
+    padding-left: 4px;
 }
 
 .than {
@@ -310,8 +310,8 @@ p.text-europe {
     font-size: 18px;
     font-weight: 400;
     line-height: 18px;
-    padding-top: 7px;
-    padding-left: 29px;
+    padding-top: 10px;
+    padding-left: 48px;
 }
 
 .project {
@@ -327,7 +327,6 @@ p.text-europe {
     font-size: 18px;
     font-weight: 400;
     line-height: 18px;
-    padding-left: 9px;
 
 }
 
