@@ -25,12 +25,12 @@ footer {
     float: left;
 }
 
-.social-media{
+.social-media {
     color: white;
     font-size: 18px;
 }
 
-.social-media-icon{
+.social-media-icon {
     position: absolute;
     right: 1px;
     margin-top: -3px;
@@ -41,23 +41,29 @@ footer {
     float: right;
     font-size: 15px;
     overflow-y: auto;
-    height: 193px;
+    height: 252px;
 }
 
 .privacy-policy {
     color: white;
     font-size: 18px;
-    padding-top: 12px;
+    line-height: 36px;
 }
 
-.privacy-policy1 {
+.privacy-policy.active {
     color: white;
     font-size: 18px;
     opacity: 70%;
-    padding-left: 21px;
+    padding-left: 16px;
+    padding-top: 3px;
     font-weight: 700;
-    line-height: 36px;
+    line-height: 28px;
     text-align: left;
+    border-left: 3px solid rgba(255, 57, 1, 1) !important;
+    margin-bottom: 5px;
+}
+
+.privacy-policy.active::after {
 
 }
 
@@ -80,12 +86,37 @@ footer {
     margin: 0;
 }
 
-.last-element{
+.last-element {
     position: absolute;
     color: white;
     opacity: 70%;
     font-size: 14px;
     text-align: center;
     width: 100%;
-    bottom: -100px;
+    bottom: -60px;
+}
+
+.scroll-block {
+    padding-left: 32px;
+    padding-top: 30px;
+    padding-right: 36px;
+    font-size: 14px;
+    line-height: 22px;
+    opacity: 0.7;
+    background-color: #101012;
+}
+
+.text-footer::-webkit-scrollbar {
+    width: 4px;
+    height: auto;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid #141313;
+}
+
+.text-footer::-webkit-scrollbar-thumb {
+    background: #696969;
+    border-radius: 5px;
+    width: 4px;
+    padding-right: 10px;
 }
