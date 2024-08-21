@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Agency</title>
+    <!--Підключення стилів-->
     <link href="css/general.css" rel="stylesheet">
     <link href="css/header.css" rel="stylesheet">
     <link href="css/section.css" rel="stylesheet">
     <link href="css/footer.css" rel="stylesheet">
+    <link href="css/hoverForFooter.css" rel="stylesheet">
 
+    <!--Підключення шрифтів-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
@@ -16,142 +19,150 @@
 </head>
 <body>
 <header>
-    <div class="text-color-white main-column">
+    <!--Логотип-->
+    <div class="white-opacity main-column">
         <div class="logo">
-            <a href=""><img src="img/Logo1.png" alt="logo"/></a>
+            <a href=""><img src="img/logotype.png" alt="logo"/></a>
         </div>
-        <div class="menu text-color-white">
+        <div class="menu white-opacity">
             <nav>
-                <ul style="margin: 0;padding: 0">
+                <ul class="menu-list">
                     <li>
+                        <!--Випадаюче мені -->
                         <a href="#">Services</a>
-                        <ul class="dropdown-content">
+                        <ul class="dropdown-menu">
                             <li><a href="#">Service 1</a></li>
                             <li><a href="#">Service 2</a></li>
                             <li><a href="#">Service 3</a></li>
                         </ul>
-                    <li style="padding-right: 45px;padding-left: 53px"><a href="#">Blog</a></li>
+                    <li class="menu-items"><a href="#">Blog</a></li>
                     <li><a href="#">Contact Us</a></li>
                 </ul>
             </nav>
         </div>
     </div>
 </header>
+
+<!--Головна секція з кнопкою до заповнення форми-->
 <section>
-    <div class="start-page">
-        <div class="lets-start col-4">
-            <div class="background-start-page"><img src="img/Frame3.png" height="360" width="452" alt=""/></div>
-            <div class="main-title">
+    <div class="first-page">
+        <div class="section-content col-4">
+            <div class="background-map"><img src="img/map.png" height="360" width="452" alt=""/></div>
+            <div class="main-heading">
                 <span class="decorative-rectangle"></span>
                 <p>Promote your dream</p>
             </div>
-            <p class="text-europe text-color-white">We are creative digital agency based in Europe. We provide a wide
+            <p class="section-text-description white-opacity">We are creative digital agency based in Europe. We provide
+                a wide
                 range of marketing,
                 design, and it services for achieving business goals of our clients. Choose the ones you need.</p>
-            <a href="#form" class="lets-start-button"> Let's Start</a>
+            <a href="##form" class="section-button"> Let's Start</a>
         </div>
-        <div class="frame2 col-8">
-            <div class="background-frame2">
-                <img src="img/29c54f93ce69ea4b1b636b9c02040fee.gif" height="510" width="510" alt=""/>
+        <div class="media-content col-8">
+            <div class="background-gif">
+                <img src="img/background.gif" height="510" width="510" alt=""/>
             </div>
-            <div class="frame-two-image">
-                <img src="img/Frame2.png" alt=""/>
+            <div class="statistic-image">
+                <img src="img/statistic.png" height="406" width="608" alt=""/>
             </div>
         </div>
     </div>
-    <div class="steps">
-        <div class="step-title col-12">
-            <p class="best">WHAT WE DO BEST</p>
-            <p class="creat">We are creative digital agency based in Europe. We provide</p>
-            <p class="creat2">a wide range of marketing, design</p>
+    <!--Більше про компанію і які послуги вона пропонує-->
+    <div class="services-section ">
+        <div class="col-12">
+            <p class="highlight-text">WHAT WE DO BEST</p>
+            <p class="services-intro">We are creative digital agency based in Europe. We provide</p>
+            <p class="services-intro-continued">a wide range of marketing, design</p>
         </div>
-        <div class="services col-12">
+        <div class="services-list col-12">
             <div class="col-3 rectangle m-r-15">
-                <div class="icon"><img src="img/icon1.png" height="68" width="68" alt=""/></div>
-                <div class="title">
-                    <p style="padding-bottom: 7px;">SEO</p>
+                <div class="services-icon"><img src="img/optimization.png" height="68" width="68" alt=""/></div>
+                <div class="service-title">
+                    <p class="bottom">SEO</p>
                     <span class="line"></span>
                 </div>
                 <div>
-                    <p class="description text-color-white">Web-sites promotion, on-page and off-page optimization</p>
+                    <!--Опис кожної послуги розділений в прямокутниках-->
+                    <p class="description white-opacity">Web-sites promotion, on-page and off-page optimization</p>
                 </div>
-                <div class="triangle_group"><img src="img/Group656.svg" height="45" width="36" alt=""></div>
+                <div class="triangle-group"><img src="img/geometry.svg" height="45" width="36" alt=""></div>
             </div>
             <div class="col-3 rectangle m-r-15 m-l-15">
-                <div class="icon">
-                    <img src="img/icon14.png" height="68" width="68" alt=""/>
+                <div class="services-icon">
+                    <img src="img/copyrighting.png" height="68" width="68" alt=""/>
                 </div>
-                <div class="title">
-                    <p style="padding-bottom: 7px;">Copyrighting</p>
+                <div class="service-title">
+                    <p class="bottom">Copyrighting</p>
                     <span class="line"></span>
                 </div>
                 <div>
-                    <p class="description text-color-white">SEO-writing, creative writing, copyrighting, editing</p>
+                    <p class="description white-opacity">SEO-writing, creative writing, copyrighting, editing</p>
                 </div>
-                <div class="triangle_group"><img src="img/Group656.svg" height="45" width="36" alt=""></div>
+                <div class="triangle-group"><img src="img/geometry.svg" height="45" width="36" alt=""></div>
             </div>
             <div class="col-3 rectangle m-r-15 m-l-15">
-                <div class="icon">
-                    <img src="img/icon.png" height="68" width="68" alt=""/>
+                <div class="services-icon">
+                    <img src="img/iconDocument.png" height="68" width="68" alt=""/>
                 </div>
-                <div class="title">
-                    <p style="padding-bottom: 7px;">Web Development</p>
+                <div class="service-title">
+                    <p class="bottom">Web Development</p>
                     <span class="line"></span>
                 </div>
                 <div>
-                    <p class="description text-color-white">Web-sites creation, landings</p>
+                    <p class="description white-opacity">Web-sites creation, landings</p>
                 </div>
-                <div class="triangle_group3"><img src="img/Group656.svg" height="45" width="36" alt=""></div>
+                <div class="triangle-group-3block"><img src="img/geometry.svg" height="45" width="36" alt=""></div>
             </div>
             <div class="col-3 rectangle m-l-15">
-                <div class="icon">
-                    <img src="img/icon2.png" height="68" width="68" alt=""/>
+                <div class="services-icon">
+                    <img src="img/graphics.png" height="68" width="68" alt=""/>
                 </div>
-                <div class="title">
-                    <p style="padding-bottom: 7px;">Web Design</p>
+                <div class="service-title">
+                    <p class="bottom">Web Design</p>
                     <span class="line"></span>
                 </div>
                 <div>
-                    <p class="description text-color-white">Web and Mobile sites design, Logo design, Illustrations</p>
+                    <p class="description white-opacity">Web and Mobile sites design, Logo design, Illustrations</p>
                 </div>
-                <div class="triangle_group"><img src="img/Group656.svg" height="45" width="36" alt=""></div>
+                <div class="triangle-group"><img src="img/geometry.svg" height="45" width="36" alt=""></div>
             </div>
         </div>
-        <div class="col-12 arrow"><img src="img/arrows.svg" alt=""></div>
+        <div class="col-12 down-arrow"><img src="img/downArrows.svg" alt=""></div>
     </div>
-    <div class="our-team">
-        <div class="col-7 frame5">
-            <div class="background-frame5"><img src="img/Frame5.png" height="517" width="680" alt/></div>
-            <div class="unvisible-block"><img src="img/Frame5.png" height="517" width="680" alt/></div>
+    <div class="team-section">
+        <div class="col-7 team-position">
+            <div class="team-image"><img src="img/colleagues.png" height="517" width="680" alt/></div>
+            <div class="invisible-block"><img src="img/colleagues.png" height="517" width="680" alt/></div>
         </div>
+        <!--Розділ для знайомста з командою-->
         <div class="page-team col-5">
-            <div style="padding-left: 19px;" class="float-left">
+            <div class="team-intro">
                 <div class="page3">
-                    <p class="team">OUR TEAM, THAT CAN </p>
-                    <p class="team1">BE TRUSTED</p>
+                    <p class="team-highlight">OUR TEAM, THAT CAN </p>
+                    <p class="team-highlight-continued">BE TRUSTED</p>
                     <span class="line2"></span>
-                    <p class="job text-color-white">We are creative people of professionals who join forces, experience
+                    <p class="team-description white-opacity">We are creative people of professionals who join forces,
+                        experience
                         and technology that
                         help you to visualize your next big move.</p>
                 </div>
                 <div class="numbers col-12 float-left">
-
-                    <div class="float-left" style="width: 170px;margin-right: 28px">
+                    <div class="team-intro  border-team">
                         <div class="number5">
-                            <div style="" class="text-align-center">
-                                <p class="were">WE’RE</p>
-                                <p class="border1">5</p>
-                                <p class="years">YEARS</p>
+                            <div class="text-align-center">
+                                <p class="number5-header">WE’RE</p>
+                                <p class="number-5">5</p>
+                                <p class="label-5">YEARS</p>
                             </div>
                         </div>
                     </div>
 
-                    <div class="float-left" style="width: 270px">
+                    <div class="team-intro width">
                         <div class="number150">
                             <div class="text-align-center">
-                                <p class="than">MORE THAN</p>
-                                <p class="border2">150+</p>
-                                <p class="project">PROJECT</p>
+                                <p class="number150-header">MORE THAN</p>
+                                <p class="number-150">150+</p>
+                                <p class="label-150">PROJECT</p>
                             </div>
                         </div>
                     </div>
@@ -159,45 +170,51 @@
             </div>
         </div>
     </div>
-    <div class="col-12 arrow"><img src="img/arrows.svg" alt=""></div>
-    <div class="form col-12">
-        <div class="background-image col-12">
-            <img src="img/image17.svg" alt="">
+    <!--Форма для оформлення замовлення-->
+    <div class="col-12 down-arrow"><img src="img/downArrows.svg" alt=""></div>
+    <div class="col-12" id="#form">
+        <div class="form-background-image col-12">
+            <img src="img/backgroundImageCircle.svg" alt="">
         </div>
-        <div class="lets-start-text">
+        <div class="form-header">
             <p>LET’S START?</p>
-            <span class="line-lets-start"></span>
+            <span class="underline"></span>
         </div>
-        <form class="col-12 ">
+        <form class="col-12">
             <div class="form-group">
-                <input class="col-3 style-form" placeholder="NAME" type="text" name="name" required style="padding-right: 13px">
-                <input class="col-3 style-form margin-email" placeholder="EMAIL*" type="text" name="name" required style="padding-right: 13px">
-                <input class="col-3 style-form" placeholder="SUBJECT" type="text" name="name" required style="padding-right: 13px">
+                <input class="col-3 style-form" placeholder="NAME" type="text" name="name" required
+                       style="padding-right: 13px">
+                <input class="col-3 style-form margin-email" placeholder="EMAIL*" type="text" name="name" required
+                       style="padding-right: 13px">
+                <input class="col-3 style-form" placeholder="SUBJECT" type="text" name="name" required
+                       style="padding-right: 13px">
             </div>
             <div class="form-group">
-                <textarea class="col-10 style-form-message" placeholder="MESSAGE" rows="1" required style="padding-right: 20px"></textarea>
+                <textarea class="col-10 style-form-message" placeholder="MESSAGE" rows="1" required
+                          style="padding-right: 20px"></textarea>
             </div>
             <button type="submit" title="start a project" class="submit-btn">Start a Project</button>
         </form>
     </div>
 </section>
+<!--Останній блок з соціальними мережами та іншою інформацією про сайт-->
 <footer>
     <div class="footer main-column">
-        <div class="col-12" style="float:left; margin-top: 72px">
+        <div class="col-12 footer-down">
             <div class="logo-footer">
-                <a href=""><img src="img/Logo1.png" alt="logo"/></a>
+                <a href=""><img src="img/logotype.png" alt="logo"/></a>
             </div>
             <div class="media">
                 <span class="social-media">We are in social media:</span>
             </div>
             <div class="social-media-icon">
-                <img src="img/Frame7.png" height="38" width="38" style="margin-right: 7px"/>
-                <img src="img/Frame8.png" height="38" width="38" style="margin-right: 5px"/>
-                <img src="img/Frame9.png" height="38" width="38"/>
+                <img src="img/iconBlackFacebook.png" height="38" width="38" style="margin-right: 7px" class="social-icon"/>
+                <img src="img/iconBlackTwitter.png" height="38" width="38" style="margin-right: 5px" class="social-icon"/>
+                <img src="img/iconBlackInstagram.png" height="38" width="38" class="social-icon"/>
             </div>
         </div>
-        <div class="col-12" style="float:left; margin-top: 38px">
-            <div class="main-footer col-2" style="margin-top: 40px;">
+        <div class="col-12 description-down">
+            <div class="main-footer col-2">
                 <ul class="list">
                     <li class="privacy-policy active">Privacy Policy</li>
                     <li class="privacy-policy">Terms</li>
@@ -207,7 +224,7 @@
                 </ul>
             </div>
             <div class="text-footer col-10">
-                <div style="padding-left: 12px">
+                <div class="description-left">
                     <div class="scroll-block">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis ultrices aliquet lobortis
                         suspendisse ut massa egestas. Tortor eget tempor tellus molestie sed enim ornare sed faucibus.

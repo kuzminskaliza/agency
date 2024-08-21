@@ -63,10 +63,6 @@ footer {
     margin-bottom: 5px;
 }
 
-.privacy-policy.active::after {
-
-}
-
 .decorative-rectangle-footer {
     position: relative;
     width: 3px;
@@ -78,6 +74,7 @@ footer {
 
 .main-footer {
     float: left;
+    margin-top: 40px;
 }
 
 .list {

@@ -23,6 +23,16 @@ header {
     width: 120px;
 }
 
+.menu-list {
+    margin: 0;
+    padding: 0;
+}
+
+.menu-items {
+    padding-right: 45px;
+    padding-left: 53px;
+}
+
 
 nav ul li a {
     color: white;
@@ -34,20 +44,11 @@ nav ul li a {
     position: relative;
 }
 
-.dropdown-content {
+.dropdown-menu {
     display: none;
     position: absolute;
     background-color: #0C0C0E;
     color: white;
     min-width: 100px;
     z-index: 1;
-    padding-right: 28px;
-}
-
-.dropdown-content li {
-    display: block;
-}
-
-.menu ul li:hover .dropdown-content {
-    display: block;
 }
